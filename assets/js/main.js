@@ -263,3 +263,20 @@
    */
   new PureCounter();
 }());
+
+const accordBtn = document.getElementById('accordion');
+let isExpanded = false;
+
+if (accordBtn) {
+  accordBtn.textContent = 'Click to Show more';
+
+  accordBtn.addEventListener('click', function() {
+    if (isExpanded) {
+      accordBtn.textContent = 'Click to Show more';
+      isExpanded = false;
+    } else {
+      accordBtn.textContent = 'Click to Show less';
+      isExpanded = true;
+    }
+  });
+}
