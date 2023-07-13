@@ -306,6 +306,12 @@ h6 {
   font-size: 1.2em;
 }
 
+.forword-text-1 {
+  line-height: 2em;
+  font-size: 1.2em;
+  text-indent: 7%;
+}
+
 .forword-text::first-letter {
   float:left;
   font-weight: bold;
