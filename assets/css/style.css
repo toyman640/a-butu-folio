@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /*--------------------------------------------------------------
 # General
 1 banner image 278
@@ -333,6 +334,21 @@ h6 {
   filter: contrast(1);
 }
 
+.caro-inner {
+  background-color: #fff;
+}
+
+.quote-pic {
+  background-blend-mode: multiply;
+}
+
+.quote-pic1 {
+  background-position: center right;
+  float: right;
+  background-color: #fff;
+  mix-blend-mode: multiply;
+}
+
 #top-bar {
   position: absolute;
   z-index: 2;
@@ -341,17 +357,48 @@ h6 {
   margin-top: 3%;
 }
 
+.new-top-bar ul {
+  display: none;
+}
+
 @media (min-width: 992px) {
+  .navbar {
+    display: none;
+  }
+
   #hero {
     padding-left: 160px;
   }
 
   .carousel-caption {
-    margin-bottom: 20%;
+    margin-bottom: 3%;
+  }
+
+  .new-top-bar {
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    justify-content: space-between;
+  }
+
+  .full-menu-bar {
+    display: flex;
+    background-color: rgb(204, 204, 255);
+  }
+
+  .new-top-bar ul {
+    display: flex;
+    list-style: none;
+    width: 20%;
+    line-height: 400%;
+    justify-content: space-between;
+    margin-right: 10%;
+    font-weight: 700;
   }
 
   .quote {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Gelasio', serif;
+    font-style: italic;
     font-size: 2.5em;
   }
 
@@ -359,6 +406,51 @@ h6 {
     font-family: "Open Sans", sans-serif;
     font-size: 1.3em;
   }
+  /* ========================= */
+  .first-text {
+    background: rgba(100, 149, 237, 0.3);
+    padding: 40px;
+    border-left: 10px solid rgb(100, 149, 237);;
+    
+  }
+
+  .credit {
+    font-family: 'Gelasio', serif;
+    font-size: 1.3em;
+    text-align: end;
+    font-weight: bold;
+  }
+  
+  .credit::before {
+    content: "\2014\0020";
+  }
+
+  .border-quote {
+    margin-top: 200px;
+  }
+
+  .quote-quoted::before {
+    content: "\201c";
+    font-family: 'Gelasio', serif;
+    font-size: 100px;
+    float:left;
+    margin-top: -40px;
+
+  }
+/* 
+  .ibere::before {
+    content: "\201c";
+    left: 0;
+    top: 0;
+    font-family: 'Gelasio', serif;
+  }
+
+  .ibere::after {
+    content: "\201d";
+    position: relative;
+    font-family: 'Gelasio', serif;
+  } */
+  /* ========================= */
 }
 
 #hero:before {
