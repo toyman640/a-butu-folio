@@ -345,7 +345,12 @@ h6 {
 .quote-pic1 {
   background-position: center right;
   float: right;
-  background-color: #fff;
+  mix-blend-mode: multiply;
+}
+
+.quote-pic1-left {
+  background-position: center right;
+  /* float: left; */
   mix-blend-mode: multiply;
 }
 
@@ -383,13 +388,22 @@ h6 {
 
   .full-menu-bar {
     display: flex;
-    background-color: rgb(204, 204, 255);
+    background: url('../img/background-main.png');
+    background-size: cover;
+    border-bottom: 0;
+  
   }
+
+  .quote-back {
+    background: url('assets/img/banner-2-copy.jpg');
+  }
+
+
 
   .new-top-bar ul {
     display: flex;
     list-style: none;
-    width: 20%;
+    width: 30%;
     line-height: 400%;
     justify-content: space-between;
     margin-right: 10%;
@@ -406,50 +420,63 @@ h6 {
     font-family: "Open Sans", sans-serif;
     font-size: 1.3em;
   }
-  /* ========================= */
-  .first-text {
-    background: rgba(100, 149, 237, 0.3);
-    padding: 40px;
-    border-left: 10px solid rgb(100, 149, 237);;
-    
-  }
 
-  .credit {
-    font-family: 'Gelasio', serif;
-    font-size: 1.3em;
-    text-align: end;
-    font-weight: bold;
+  .banner-back {
+    background: url('../img/background-main.png');
+    background-size: cover;
   }
-  
-  .credit::before {
-    content: "\2014\0020";
+  /* ========================= */
+  .inner-intro {
+    justify-content: start;
   }
 
   .border-quote {
-    margin-top: 200px;
+    margin-bottom: 15%;
   }
 
-  .quote-quoted::before {
-    content: "\201c";
-    font-family: 'Gelasio', serif;
-    font-size: 100px;
-    float:left;
-    margin-top: -40px;
-
-  }
-/* 
-  .ibere::before {
-    content: "\201c";
-    left: 0;
-    top: 0;
-    font-family: 'Gelasio', serif;
+  .border-quote-long {
+    margin-bottom: 10%;
   }
 
-  .ibere::after {
-    content: "\201d";
-    position: relative;
-    font-family: 'Gelasio', serif;
-  } */
+  .top-small {
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    color: #272829;
+  }
+
+  .name-into {
+    color: #272829;
+    font-size: 3.5em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+  }
+
+  .second-into {
+    color: #272829;
+    font-size: 3.5em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+  }
+
+  .first-into {
+    color: #272829;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    
+  }
+
+  .bottom-intro {
+    color: #272829;
+    font-size: 1.2em;
+    text-align: left;
+  }
   /* ========================= */
 }
 
