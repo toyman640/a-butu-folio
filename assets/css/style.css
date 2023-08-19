@@ -477,6 +477,22 @@ h6 {
     font-size: 1.2em;
     text-align: left;
   }
+
+  .blog-post {
+    border: 0;
+  }
+
+  .blog-title {
+    margin-left: -3%;
+  }
+
+  .blog-snippet {
+    margin-left: -3%;
+  }
+
+  .blog-button {
+    margin-left: -3%;
+  }
   /* ========================= */
 }
 
