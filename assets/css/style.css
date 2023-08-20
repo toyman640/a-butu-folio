@@ -493,6 +493,47 @@ h6 {
   .blog-button {
     margin-left: -3%;
   }
+
+  .blog-post-title-1 {
+    margin-top: 5%;
+    font-size: 3em;
+    /* border: 1px solid red; */
+    /* width: 90%; */
+  }
+
+  .post-sections {
+    list-style: lower-roman;
+  }
+
+  .content {
+    /* border: 1px solid red; */
+    margin-top: 1%;
+    background: #f2f4f2;
+    /* padding: 15px; */
+    border-radius: 5px;
+  }
+
+  .contents {
+    text-align: center;
+   padding-top: 1%;
+  }
+
+  .main-article {
+    margin-top: 5%;
+  }
+
+  .growth-list {
+    list-style: lower-alpha;
+  }
+
+  .post-parts{
+    display: block;
+    font-size: 1.2em;
+    margin-top: 1%;
+    margin-bottom: -2%;
+    font-weight: 600;
+   
+  }
   /* ========================= */
 }
 
