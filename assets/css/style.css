@@ -575,6 +575,11 @@ h6 {
     transform: scale(1.2);
     transition: 1s ease;
   }
+
+  .cimc {
+    margin-top: 25px;
+    margin-left: 40%;
+  }
   /* ========================= */
 }
 
