@@ -101,6 +101,10 @@ h6 {
   animation: animate-preloader 1s linear infinite;
 }
 
+.project-header {
+  font-size: 1.7em;
+}
+
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
