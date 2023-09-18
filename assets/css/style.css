@@ -400,7 +400,8 @@ h6 {
 
   .full-menu-bar {
     display: flex;
-    background: url('../img/background-main.png');
+    /* background: url('../img/background-main.png'); */
+    background-color: #f0ffff;
     background-size: cover;
     border-bottom: 0;
   
@@ -434,7 +435,8 @@ h6 {
   }
 
   .banner-back {
-    background: url('../img/background-main.png');
+    /* background: url('../img/navy-blue.jpg'); */
+    background-color: #f0ffff;
     background-size: cover;
   }
   /* ========================= */
